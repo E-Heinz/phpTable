@@ -12,6 +12,7 @@ CREATE TABLE 'personenTest' (
   'plz' integer
   );
 
+INSERT INTO personenTest(personenID, Nachname, Vorname, Stadt, PLZ) VALUES(111,	"Erstens", "Zweitens", "Nochnicht",	12345);
 INSERT INTO personenTest(personenID, Nachname, Vorname, Stadt, PLZ) VALUES(122, "Hinz", "Adam", "Hamburg", 22335);
 INSERT INTO personenTest(personenID, Nachname, Vorname, Stadt, PLZ) VALUES(123, "Kunz", "Helga", "Hannover", 30457);
 
